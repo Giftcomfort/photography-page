@@ -1,0 +1,107 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.camera{
+    width: 30px;
+}
+
+nav h1{
+    font-size: 40px;
+}
+
+nav div a{
+    text-decoration: 0;
+    color: black;
+}
+
+img{
+    width: 400px;
+    margin-top: 30px;
+}
+
+main{
+    padding: 40px 20px;
+    display: flex;
+    background-color: rgb(130, 142, 155);
+}
+
+.tag{
+    color: rgb(219, 212, 212);
+}
+
+main h2{
+    color: white;
+}
+
+div{
+    margin: 0px 20px;
+}
+
+#photo {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skill{
+margin-top: 20px;
+margin-bottom: 15px;
+
+}
+ 
+section{
+    padding: 0px 20px;
+    display: flex;
+    background-color: lightgray;
+}
+ 
+@media  only screen and (max-width:1334px) {
+    main{
+        display: block;
+    }   
+}
+
+@media only screen and (max-width:632px) {
+    
+    section{
+        display: block;
+        padding-top: 20px;
+    }
+
+    #photo{
+        margin-top: 0;
+
+    }
+
+    img{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:425px) {
+    
+    nav h1{
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+

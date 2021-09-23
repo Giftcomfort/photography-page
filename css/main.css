@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(27, 26, 26);
+}
+
+.camera{
+    width: 44px;
+}
+
+.media{
+    width: 20px;
+}
+
+#face{
+    width: 20px;
+}
+
+.more{
+    font-weight: bolder;
+}
+
+main{
+    background-image: url(assets/posingtips.jpg); 
+    min-height:500px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+nav{
+    display: flex;
+    background-color: lightgrey;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text a{
+    color: black;
+    text-decoration: 0;
+    padding: 5px;
+    
+}
+
+.need> h1{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sleep > h3 ,.need> h3,p{
+    color: white;
+}
+
+
+.need{
+    color: white;
+    padding-top: 300px ;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 700px;
+    }
+
+    button{
+        margin-top: 30px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        outline: 0;
+        border: 0;
+        background-color: black;
+        color: white;
+    }
+
+    section{
+        display: flex;
+        padding: 50px 80px;
+    }
+
+    .lorem{
+        margin-bottom: 20px;
+    }
+
+    .apple{
+        width: 120px;
+        margin-left: 40px;
+    }
+
+    .wake{
+        background-color: gray;
+        min-height: 100%;
+    }
+
+    .go{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 80px;
+    }
+
+    @media only screen and (max-width:768px) {
+    
+       main > .need {
+            display: flex;
+        }
+
+        .flex{
+            margin-left: 50px;
+        }
+        .perp{
+            color: wheat;
+        }
+
+        nav > h1{
+            font-size: 30px;
+        }
+
+        nav > h1 > .camera{
+            width: 25px;
+        }
+
+        .apple{
+            width: 100px;
+        }
+    }
+
+    @media only screen and (max-width:420px) {
+
+        #lorem{
+            font-size: 8px;
+        }
+
+        .need> h1{
+            font-size: 30px;
+        }
+
+    main > .need{
+        font-size: 10px;
+    }
+
+    .flex{
+        margin-left: 50px;
+    }
+
+    .more{
+        font-size: 9px;
+        margin:140px 0px 0px 80px;
+    }
+
+    .flex2{
+        display: flex;
+    }
+
+    nav > h1{
+        font-size: 13px;
+        margin-right: 40px;
+    }
+
+    .text a{
+        font-size: 10px;
+    }
+
+    nav > h1 > .camera{
+        width: 15px;
+    }
+
+    }
+        
